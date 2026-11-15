@@ -1,0 +1,6 @@
+# One approved asset per line. Anything not listed here will be refused.
+www.authorized-example.com          # exact host, ports 80/443 only
+*.authorized-example.com            # subdomains only (not the apex)
+app.authorized-example.com:8443     # explicit non-default port
+203.0.113.10                        # single IP
+198.51.100.0/28                     # CIDR range
